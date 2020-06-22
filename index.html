@@ -1,9 +1,38 @@
 <!<!DOCTYPE html>
 <html>
 <head>
-<title>Hello
-I added a new line
+
+  <style>
+.svbutton
+   {
+     colour:Red;
+    }
+  </style>
+
+<title>
 </title>
+<div>
+  <input name="name1" type="text" placeholder="name"/>
+  <input name="pass" type="password" placeholder="password"/>
+  </div>
+  <div>
+Favourite colour
+<input name="colour" type="radio" vlaue="red"/>Red
+<input name="colour" type="radio" vlaue="red"/>Yellow
+<input name="colour" type="radio" vlaue="red"/>Blue
+  </div>
+  <div>
+    <input name="country" list="countries" placeholder="country"/>
+    <datalist id="countries">
+    <option id="America" value="USA"/>
+    <option id="Africa" value="Af"/>
+    <option id="India" value="India"/>
+    <option id="Japan" value="JP"/>
+  </datalist>
+    </div>
+    <div>
+<input name="svbutton" type="button" value="Submit"/>
+    </div>
 </head>
 <body></body>
 </html>
